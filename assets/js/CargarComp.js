@@ -14,7 +14,8 @@ async function loadComponent(id, url) {
 
     const html = await response.text();
     container.innerHTML = html;
-
+    // Dispara un evento personalizado cuando el componente ha sido cargado
+    document.dispatchEvent(new CustomEvent(`component-loaded-${id}`));
   } catch (error) {
     console.error(`No se pudo cargar el componente ${url}:`, error);
     container.innerHTML = `<p style="color:red;">Error al cargar ${url}</p>`;
@@ -26,6 +27,3 @@ window.addEventListener("DOMContentLoaded", () => {
   loadComponent("header-component", "components/encabezado/header.html");
   loadComponent("footer-component", "components/piedepagina/footer.html");
 });
-
-
-

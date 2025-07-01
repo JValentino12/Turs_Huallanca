@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function iniciarCarrusel() {
   // === Carrusel Principal (Hero Section) ===
   const heroSlides = document.querySelectorAll(".hero-section .slide");
   const heroDots = document.querySelectorAll(".hero-pagination .dot");
@@ -116,5 +116,12 @@ document.addEventListener("DOMContentLoaded", () => {
     showHistorySlide(historyIndex);
     startHistoryAutoSlide();
   }
-});
+}
 
+// Escuchar el evento de carga del header y ejecutar el carrusel
+document.addEventListener("component-loaded-header-component", iniciarCarrusel);
+
+// Por si acaso el header ya está cargado antes de que este JS se cargue
+if (document.getElementById("header-component")?.innerHTML.trim()) {
+  iniciarCarrusel();
+}

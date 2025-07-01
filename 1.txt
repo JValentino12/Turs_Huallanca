@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festividades del Distrito de Huallanca, Bolognesi</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-component"></div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Festividades del Distrito de Huallanca, Bolognesi</h1>
+
+        <div class="festivity-item">
+          <h2>Danza de los Negritos de Huallanca</h2>
+          <img
+            src="IMG/negritos de huallanca.webp"
+            alt="Danza de los Negritos de Huallanca"
+          />
+          <p>
+            Esta es la expresión cultural más emblemática, declarada Patrimonio
+            Cultural de la Nación. Se realiza principalmente durante las
+            temporadas de:
+          </p>
+          <ul>
+            <li><strong>Navidad:</strong> 24-26 de diciembre</li>
+            <li><strong>Año Nuevo:</strong> 31 de diciembre-2 de enero</li>
+            <li><strong>Reyes:</strong> 5-6 de enero</li>
+          </ul>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Aniversario del Distrito de Huallanca</h2>
+          <img
+            src="IMG/aniversario.jpg"
+            alt="Aniversario del Distrito de Huallanca"
+          />
+          <p>
+            Se celebra el <strong>21 de noviembre</strong> y conmemora la
+            elevación del distrito a la categoría de ciudad. Esta semana de
+            aniversario incluye diversas actividades cívicas y culturales, como
+            concursos y presentaciones culturales.
+          </p>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Fiesta de la Virgen del Carmen</h2>
+          <img
+            src="IMG/virgen del carmen.JPG"
+            alt="Fiesta de la Virgen del Carmen"
+          />
+          <p>
+            La principal fiesta patronal se celebra el
+            <strong>16 de julio</strong> con procesiones religiosas. A
+            continuación, se celebra la Semana del Turismo (del
+            <strong>27 de julio al 1 de agosto</strong>), con desfiles y una
+            feria taurina en honor a la Virgen del Carmen.
+          </p>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Carnavales</h2>
+          <img src="IMG/Carnaval.jpg" alt="Carnavales en Huallanca" />
+          <p>
+            Se celebran en <strong>febrero o marzo</strong> (fechas móviles), e
+            implican prácticas tradicionales como "jueves de comadres y
+            compadres", "viernes de correo" y la "yunza" (baile de corte de
+            árbol).
+          </p>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Semana Santa</h2>
+          <img src="IMG/semana santa.jpg" alt="Semana Santa en Huallanca" />
+          <p>
+            Se celebra en <strong>marzo o abril</strong> (fechas móviles) con
+            varias procesiones religiosas y ceremonias solemnes desde el
+            "Viernes de Dolores" hasta el Domingo de Pascua.
+          </p>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Día de las Cruces</h2>
+          <img src="IMG/cruces.jpg" alt="Día de las Cruces en Huallanca" />
+          <p>
+            Se celebra el <strong>3 de mayo</strong>, donde se adornan y honran
+            las cruces en capillas y comunidades.
+          </p>
+        </div>
+
+        <div class="festivity-item">
+          <h2>Señor de los Milagros y Señor de Burgos</h2>
+          <img
+            src="IMG/señor de los milagros.webp"
+            alt="Procesión del Señor de los Milagros"
+          />
+          <p><strong>Estas celebraciones se dan cada:</strong> 28 de actubre</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer-component"></div>
+    </footer>
+  </body>
+</html>
